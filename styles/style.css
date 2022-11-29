@@ -263,9 +263,9 @@
 }
 
 .kaufman__triangle {
-  position: absolute;
   width: 877px;
   height: 877px;
+  position: absolute;
   top: 0;
   right: -200px;
   z-index: 1;
