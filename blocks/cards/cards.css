@@ -5,7 +5,9 @@
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: stretch;
-  margin: auto;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
 }
 
 .cards .cards__item:nth-child(3n) {
