@@ -2,8 +2,15 @@
   margin: 0;
   max-width: 730px;
   padding-left: 64px;
-  line-height: 96px;
   font-size: 102px;
+  line-height: 0.9;
   font-weight: 600;
   z-index: 4;
+}
+
+@media screen and (max-width: 767px) {
+  .header__title {
+    font-size: 68px;
+    max-width: 420px;
+  }
 }
