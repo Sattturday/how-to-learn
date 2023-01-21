@@ -1,21 +1,30 @@
 .header {
   background-color: #f2f2f2;
-  min-height: 756px;
+  padding: 30px 64px;
+  min-height: 600px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   position: relative;
   overflow: hidden;
 }
 
 @media screen and (max-width: 1023px) {
   .header {
-    min-height: 625px;
+    min-height: 450px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .header {
-    min-height: 500px;
+    min-height: 350px;
+    padding: 30px 34px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .header {
+    min-height: 300px;
+    padding: 20px 17px;
   }
 }
