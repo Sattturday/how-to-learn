@@ -1,15 +1,23 @@
 .cards {
-  width: 920px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: stretch;
+  gap: 100px;
   margin: 0 auto;
   padding: 0;
   list-style: none;
 }
 
-.cards .cards__item:nth-child(3n) {
-  margin-right: 0;
+@media screen and (max-width: 767px) {
+  .cards {
+    gap: 50px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .cards {
+    gap: 20px;
+  }
 }

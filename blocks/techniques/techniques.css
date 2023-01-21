@@ -3,5 +3,19 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 100px auto 0;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+@media screen and (max-width: 767px) {
+  .techniques {
+    width: 100%;
+    padding: 50px 34px 0;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .techniques {
+    padding: 20px 17px 0;
+  }
 }
