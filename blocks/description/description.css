@@ -1,5 +1,18 @@
 .description {
-  margin: 100px auto 0;
+  margin: auto;
+  padding-top: 100px;
   display: flex;
   justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+  .description {
+    padding: 50px 34px 0;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .description {
+    padding: 20px 17px 0;
+  }
 }
