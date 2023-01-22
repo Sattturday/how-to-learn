@@ -6,3 +6,9 @@
   text-align: center;
   margin: 16px 0 0;
 }
+
+@media screen and (max-width: 767px) {
+  .cards__description {
+    font-size: 15px;
+  }
+}

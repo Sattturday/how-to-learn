@@ -1,6 +1,13 @@
 .cards__image {
   width: 160px;
-  height: 160px;
+  aspect-ratio: 1/1;
   margin: 0 40px 43px;
   border-radius: 50%;
+}
+
+@media screen and (max-width: 767px) {
+  .cards__image {
+    width: 120px;
+    margin: 0 40px 20px;
+  }
 }

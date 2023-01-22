@@ -1,23 +1,22 @@
 .cards {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 240px);
+  column-gap: 100px;
   justify-content: center;
-  align-items: stretch;
-  gap: 100px;
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   list-style: none;
 }
 
 @media screen and (max-width: 767px) {
   .cards {
-    gap: 50px;
+    column-gap: 50px;
   }
 }
 
 @media screen and (max-width: 424px) {
   .cards {
-    gap: 20px;
+    column-gap: 20px;
   }
 }

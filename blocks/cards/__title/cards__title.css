@@ -5,3 +5,9 @@
   text-align: center;
   margin: 0;
 }
+
+@media screen and (max-width: 767px) {
+  .cards__title {
+    font-size: 18px;
+  }
+}

@@ -9,13 +9,12 @@
 
 @media screen and (max-width: 767px) {
   .techniques {
-    width: 100%;
     padding: 50px 34px 0;
   }
 }
 
 @media screen and (max-width: 424px) {
   .techniques {
-    padding: 20px 17px 0;
+    padding: 50px 17px 0;
   }
 }
