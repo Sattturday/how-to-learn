@@ -1,5 +1,5 @@
 .cards {
-  width: 100%;
+  width: 1000px;
   display: grid;
   grid-template-columns: repeat(auto-fit, 240px);
   column-gap: 100px;
@@ -9,8 +9,15 @@
   list-style: none;
 }
 
+@media screen and (max-width: 1023px) {
+  .cards {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .cards {
+    width: 100%;
     column-gap: 50px;
   }
 }
