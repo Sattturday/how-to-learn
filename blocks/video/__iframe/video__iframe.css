@@ -5,3 +5,17 @@
   transform: translateY(50px);
 }
 
+@media screen and (max-width: 767px) {
+  .video__iframe {
+    width: 400px;
+    height: 245px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .video__iframe {
+    width: 286px;
+    height: 175px;
+    transform: translateY(30px);
+  }
+}
