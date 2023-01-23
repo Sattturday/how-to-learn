@@ -5,3 +5,9 @@
   gap: 20px;
   margin-top: 60px;
 }
+
+@media screen and (max-width: 767px) {
+  .table__cell {
+    margin-top: 40px;
+  }
+}

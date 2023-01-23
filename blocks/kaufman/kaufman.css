@@ -7,3 +7,15 @@
   position: relative;
   overflow: hidden;
 }
+
+@media screen and (max-width: 767px) {
+  .kaufman {
+    padding: 45px 34px 0;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .kaufman {
+    padding: 35px 17px 0;
+  }
+}
