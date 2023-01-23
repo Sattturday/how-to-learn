@@ -1,6 +1,19 @@
 .resources {
-  margin: 100px auto 217px;
+  margin: 0 auto;
+  padding: 100px 0 217px;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  .resources {
+    padding: 50px 34px 167px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .resources {
+    padding: 40px 17px 87px;
+  }
 }
