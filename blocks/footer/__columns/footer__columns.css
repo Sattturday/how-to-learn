@@ -1,6 +1,22 @@
 .footer__columns {
-  margin: 60px auto 40px;
+  padding: 60px 0 40px;
+  margin: 0 auto;
   width: 90%;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 50% repeat(2, 1fr);
+  grid-template-rows: 250px;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__columns {
+    padding: 40px 34px 20px;
+    grid-template-columns: 100%;
+    grid-template-rows: 60px 150px 50px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .footer__columns {
+    padding: 20px 17px 20px;
+  }
 }

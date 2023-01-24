@@ -1,5 +1,12 @@
 .footer__social-icon {
   width: 16px;
-  height: 16px;
+  aspect-ratio: 1/1;
   margin-right: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__social-icon {
+    width: 12px;
+  }
+
 }

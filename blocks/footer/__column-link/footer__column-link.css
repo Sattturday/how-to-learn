@@ -1,6 +1,6 @@
 .footer__column-link {
   color: white;
-  line-height: 30px;
+  line-height: 1.66;
   font-size: 18px;
   font-weight: normal;
   text-decoration: none;
@@ -9,4 +9,16 @@
 
 .footer__column-link:hover {
   opacity: .6;
+}
+
+@media screen and (max-width: 1023px) {
+  .footer__column-link {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__column-link {
+    font-size: 12px;
+  }
 }

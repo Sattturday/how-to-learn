@@ -1,0 +1,10 @@
+.footer__column_content_social {
+  justify-self: end;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__column_content_social {
+    grid-row: 2;
+    grid-column: 1;
+  }
+}

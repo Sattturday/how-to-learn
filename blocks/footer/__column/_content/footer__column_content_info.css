@@ -1,0 +1,17 @@
+.footer__column_content_info {
+  justify-self: end;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__column_content_info {
+    grid-row: 2;
+    grid-column: 1;
+    padding-right: 150px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .footer__column_content_info {
+    justify-self: start;
+  }
+}
