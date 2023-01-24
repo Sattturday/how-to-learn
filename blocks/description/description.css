@@ -5,6 +5,12 @@
   justify-content: center;
 }
 
+@media screen and (min-width: 1600px) {
+  .description {
+    padding: 100px calc((100vw - 1472px) / 2) 0;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .description {
     padding: 50px 34px 0;

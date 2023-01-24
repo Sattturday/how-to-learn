@@ -9,6 +9,12 @@
   overflow: hidden;
 }
 
+@media screen and (min-width: 1600px) {
+  .header {
+    padding: 30px calc((100vw - 1472px) / 2);
+  }
+}
+
 @media screen and (max-width: 1023px) {
   .header {
     min-height: 450px;

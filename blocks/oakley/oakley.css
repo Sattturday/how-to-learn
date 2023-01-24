@@ -5,6 +5,12 @@
   background-color: #f2f2f2;
 }
 
+@media screen and (min-width: 1600px) {
+  .oakley {
+    padding: 160px calc((100vw - 1472px) / 2) 0;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .oakley {
     padding: 100px 34px 0;

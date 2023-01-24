@@ -11,6 +11,13 @@
   background-position: bottom left;
 }
 
+@media screen and (min-width: 1600px) {
+  .feynman {
+    background-size: 864px;
+    background-position: bottom left;
+  }
+}
+
 @media screen and (max-width: 1279px) {
   .feynman {
     min-height: 800px;
