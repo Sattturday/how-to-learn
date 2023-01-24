@@ -4,3 +4,9 @@
   position: relative;
   z-index: 2;
 }
+
+@media screen and (max-width: 767px) {
+  .table_theme_dark {
+    grid-template-columns: repeat(auto-fit, 250px);
+  }
+}

@@ -23,14 +23,14 @@
 
 @media screen and (max-width: 767px) {
   .header {
-    min-height: 350px;
+    min-height: 300px;
     padding: 30px 34px;
   }
 }
 
 @media screen and (max-width: 424px) {
   .header {
-    min-height: 300px;
+    min-height: 250px;
     padding: 20px 17px;
   }
 }

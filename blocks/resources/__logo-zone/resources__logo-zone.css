@@ -20,6 +20,6 @@
   .resources__logo-zone {
     grid-template-columns: 220px;
     row-gap: 30px;
-    padding-top: 40px;
+    padding-top: 30px;
   }
 }
