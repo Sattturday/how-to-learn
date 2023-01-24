@@ -1,7 +1,10 @@
 .khan__book-container {
-  /*width: 620px;
-  height: 608px;*/
   display: flex;
   flex-direction: row;
+}
 
+@media screen and (max-width: 424px) {
+  .khan__book-container {
+    flex-direction: column;
+  }
 }

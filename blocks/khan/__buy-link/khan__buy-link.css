@@ -1,7 +1,7 @@
 .khan__buy-link {
   text-decoration: none;
   color: #2f80ed;
-  line-height: 42px;
+  line-height: 1.4;
   font-size: 30px;
   font-weight: normal;
   margin: 0;
@@ -10,4 +10,22 @@
 
 .khan__buy-link:hover {
   opacity: .6;
+}
+
+@media screen and (max-width: 1023px) {
+  .khan__buy-link {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .khan__buy-link {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .khan__buy-link {
+    order: 1;
+  }
 }

@@ -5,3 +5,17 @@
   margin: 0;
   padding: 10px 0 68px;
 }
+
+@media screen and (max-width: 1023px) {
+  .khan__quote-author-subline {
+    font-size: 20px;
+    padding: 8px 0 57px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .khan__quote-author-subline {
+    font-size: 16px;
+    padding: 6px 0 46px;
+  }
+}
